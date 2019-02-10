@@ -37,7 +37,6 @@ public class HelloWorldController {
 
     @RequestMapping(value = "/logout", method = RequestMethod.GET)
     public String logout(@RequestParam(value = "id", required = false, defaultValue = "1") Integer id) {
-        // TODO
         return "logout: " + id;
     }
 
